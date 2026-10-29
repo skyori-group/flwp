@@ -2,718 +2,733 @@
 <html lang="ru" class="__variable_62111f __variable_f8ec6e">
 
 <head>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0e9aa7" />
-    <title>FlowPoint — платформа автоматизации бизнес-процессов (BPM)</title>
-    <meta name="description"
-        content="FlowPoint позволяет выстраивать и управлять сложными бизнес-процессами на базе Alfresco или Microsoft SharePoint без написания кода. Запуск нового процесса — за один день." />
-    <meta name="generator" content="v0.app" />
-    <link rel="icon" href="icon.png" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="apple-icon.png" />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0e9aa7" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-687410-48"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-687410-48');
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(53178649, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/53178649" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <title>FlowPoint — платформа автоматизации бизнес-процессов (BPM)</title>
+  <meta name="description"
+    content="FlowPoint позволяет выстраивать и управлять сложными бизнес-процессами на базе Alfresco или Microsoft SharePoint без написания кода. Запуск нового процесса — за один день." />
+  <meta name="generator" content="v0.app" />
+  <link rel="icon" href="icon.png" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body class="font-sans antialiased">
-    <header class="fixed inset-x-0 top-0 z-50 transition-colors duration-300 bg-transparent">
-        <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"><a href="#top"
-                aria-label="FlowPoint — на главную" class="flex items-center"><img src="images/logo.png"
-                    alt="FlowPoint" width="289" height="94" class="h-12 w-auto" /></a>
-            <nav aria-label="Основная навигация" class="hidden lg:block">
-                <ul class="flex items-center gap-8 text-sm">
-                    <li><a href="#features"
-                            class="text-muted-foreground transition-colors hover:text-primary">Возможности</a></li>
-                    <li><a href="#launch" class="text-muted-foreground transition-colors hover:text-primary">Запуск
-                            процесса</a></li>
-                    <li><a href="#architecture"
-                            class="text-muted-foreground transition-colors hover:text-primary">Архитектура</a></li>
-                    <li><a href="#ose" class="text-muted-foreground transition-colors hover:text-primary">FlowPoint
-                            OSE</a></li>
-                    <li><a href="#contacts"
-                            class="text-muted-foreground transition-colors hover:text-primary">Контакты</a></li>
-                </ul>
-            </nav><a href="#contacts"
-                class="hidden rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 lg:inline-flex">Связаться</a><button
-                type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню"
-                class="-mr-2 p-2 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="lucide lucide-menu size-6">
-                    <line x1="4" x2="20" y1="12" y2="12"></line>
-                    <line x1="4" x2="20" y1="6" y2="6"></line>
-                    <line x1="4" x2="20" y1="18" y2="18"></line>
-                </svg></button>
+  <header class="fixed inset-x-0 top-0 z-50 transition-colors duration-300 bg-transparent">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"><a href="#top"
+        aria-label="FlowPoint — на главную" class="flex items-center"><img src="images/logo.png" alt="FlowPoint"
+          width="289" height="94" class="h-12 w-auto" /></a>
+      <nav aria-label="Основная навигация" class="hidden lg:block">
+        <ul class="flex items-center gap-8 text-sm">
+          <li><a href="#features" class="text-muted-foreground transition-colors hover:text-primary">Возможности</a>
+          </li>
+          <li><a href="#launch" class="text-muted-foreground transition-colors hover:text-primary">Запуск
+              процесса</a></li>
+          <li><a href="#architecture" class="text-muted-foreground transition-colors hover:text-primary">Архитектура</a>
+          </li>
+          <li><a href="#ose" class="text-muted-foreground transition-colors hover:text-primary">FlowPoint
+              OSE</a></li>
+          <li><a href="#contacts" class="text-muted-foreground transition-colors hover:text-primary">Контакты</a></li>
+        </ul>
+      </nav><a href="#contacts"
+        class="hidden rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 lg:inline-flex">Связаться</a><button
+        type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню"
+        class="-mr-2 p-2 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-menu size-6">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg></button>
+    </div>
+    <nav id="mobile-nav" aria-label="Мобильная навигация" class="border-t bg-background px-6 py-4 lg:hidden" hidden>
+      <ul class="flex flex-col gap-4">
+        <li><a href="#features" class="block text-base text-foreground">Возможности</a></li>
+        <li><a href="#launch" class="block text-base text-foreground">Запуск процесса</a></li>
+        <li><a href="#architecture" class="block text-base text-foreground">Архитектура</a></li>
+        <li><a href="#ose" class="block text-base text-foreground">FlowPoint OSE</a></li>
+        <li><a href="#contacts" class="block text-base text-foreground">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top" class="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+      <div aria-hidden="true"
+        class="absolute inset-x-0 top-0 -z-10 h-[560px] bg-gradient-to-b from-accent to-transparent"></div>
+      <div class="mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-2">
+        <div><span
+            class="inline-flex items-center rounded-full border border-primary/20 bg-background px-3 py-1 text-xs font-medium text-accent-foreground">BPM-платформа</span>
+          <h1
+            class="mt-6 text-balance font-heading text-4xl font-extrabold leading-tight tracking-tight md:text-5xl xl:text-[3.5rem]">
+            Автоматизация бизнес-процессов <span class="text-primary">без кода</span></h1>
+          <p class="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">FlowPoint —
+            платформа для быстрой автоматизации бизнес-процессов. Выстраивайте и управляйте сложными
+            процессами на базе Alfresco или Microsoft SharePoint без привлечения программистов.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a href="#contacts"
+              class="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-primary px-6 font-medium text-primary-foreground transition-colors hover:bg-primary/90">Обсудить
+              внедрение<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-4" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg></a><a href="#features"
+              class="inline-flex h-12 items-center justify-center rounded-lg border bg-background px-6 font-medium transition-colors hover:border-primary hover:text-primary">Возможности
+              платформы</a></div>
+          <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
+            <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-check size-4 text-primary" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>Без написания кода</li>
+            <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-check size-4 text-primary" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>Alfresco и MS SharePoint</li>
+            <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-check size-4 text-primary" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>Запуск за один день</li>
+          </ul>
         </div>
-        <nav id="mobile-nav" aria-label="Мобильная навигация" class="border-t bg-background px-6 py-4 lg:hidden" hidden>
-            <ul class="flex flex-col gap-4">
-                <li><a href="#features" class="block text-base text-foreground">Возможности</a></li>
-                <li><a href="#launch" class="block text-base text-foreground">Запуск процесса</a></li>
-                <li><a href="#architecture" class="block text-base text-foreground">Архитектура</a></li>
-                <li><a href="#ose" class="block text-base text-foreground">FlowPoint OSE</a></li>
-                <li><a href="#contacts" class="block text-base text-foreground">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="top" class="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
-            <div aria-hidden="true"
-                class="absolute inset-x-0 top-0 -z-10 h-[560px] bg-gradient-to-b from-accent to-transparent"></div>
-            <div class="mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-2">
-                <div><span
-                        class="inline-flex items-center rounded-full border border-primary/20 bg-background px-3 py-1 text-xs font-medium text-accent-foreground">BPM-платформа</span>
-                    <h1
-                        class="mt-6 text-balance font-heading text-4xl font-extrabold leading-tight tracking-tight md:text-5xl xl:text-[3.5rem]">
-                        Автоматизация бизнес-процессов <span class="text-primary">без кода</span></h1>
-                    <p class="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">FlowPoint —
-                        платформа для быстрой автоматизации бизнес-процессов. Выстраивайте и управляйте сложными
-                        процессами на базе Alfresco или Microsoft SharePoint без привлечения программистов.</p>
-                    <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a href="#contacts"
-                            class="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-primary px-6 font-medium text-primary-foreground transition-colors hover:bg-primary/90">Обсудить
-                            внедрение<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-arrow-right size-4" aria-hidden="true">
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                            </svg></a><a href="#features"
-                            class="inline-flex h-12 items-center justify-center rounded-lg border bg-background px-6 font-medium transition-colors hover:border-primary hover:text-primary">Возможности
-                            платформы</a></div>
-                    <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
-                        <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-check size-4 text-primary" aria-hidden="true">
-                                <path d="M20 6 9 17l-5-5"></path>
-                            </svg>Без написания кода</li>
-                        <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-check size-4 text-primary" aria-hidden="true">
-                                <path d="M20 6 9 17l-5-5"></path>
-                            </svg>Alfresco и MS SharePoint</li>
-                        <li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-check size-4 text-primary" aria-hidden="true">
-                                <path d="M20 6 9 17l-5-5"></path>
-                            </svg>Запуск за один день</li>
-                    </ul>
-                </div>
-                <figure class="overflow-hidden rounded-xl border bg-card shadow-xl shadow-primary/10 lg:rotate-1">
-                    <div class="flex items-center gap-2 border-b bg-muted px-4 py-2.5"><span
-                            class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                            class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                            class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                            class="ml-2 truncate text-xs text-muted-foreground">FlowPoint Designer</span></div>
-                      <img
-                        src="images/designer.png"
-                        alt="FlowPoint Designer: схема процесса с монитором событий и запуском процесса, навигатор и список активностей"
-                        width="1200" height="740" class="block h-auto w-full" />
-                </figure>
+        <figure class="overflow-hidden rounded-xl border bg-card shadow-xl shadow-primary/10 lg:rotate-1">
+          <div class="flex items-center gap-2 border-b bg-muted px-4 py-2.5"><span
+              class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+              class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+              class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+              class="ml-2 truncate text-xs text-muted-foreground">FlowPoint Designer</span></div>
+          <img src="images/designer.png"
+            alt="FlowPoint Designer: схема процесса с монитором событий и запуском процесса, навигатор и список активностей"
+            width="1200" height="740" class="block h-auto w-full" />
+        </figure>
+      </div>
+    </section>
+    <section id="features" class="scroll-mt-16 bg-muted/60 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold uppercase tracking-wider text-primary">Основные возможности</p>
+          <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Полный цикл
+            управления процессами в одной платформе</h2>
+          <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">От схемы на экране до
+            контроля каждой задачи — без программирования и сложных интеграций.</p>
+        </div>
+        <div class="mt-14 grid items-start gap-10 lg:grid-cols-[1fr_1.1fr]">
+          <ul class="flex flex-col gap-4">
+            <li class="flex gap-5 rounded-xl border bg-card p-6">
+              <div class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-pen-tool size-5" aria-hidden="true">
+                  <path
+                    d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z">
+                  </path>
+                  <path
+                    d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18">
+                  </path>
+                  <path d="m2.3 2.3 7.286 7.286"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-lg font-bold">Моделирование</h3>
+                <p class="mt-2 leading-relaxed text-muted-foreground">Графический редактор позволяет
+                  обычным пользователям интуитивно создавать сложные блок-схемы процессов без
+                  привлечения программистов.</p>
+              </div>
+            </li>
+            <li class="flex gap-5 rounded-xl border bg-card p-6">
+              <div class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-play size-5" aria-hidden="true">
+                  <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-lg font-bold">Исполнение</h3>
+                <p class="mt-2 leading-relaxed text-muted-foreground">Запуск и выполнение процессов
+                  реализуются на базе платформ Alfresco или MS SharePoint.</p>
+              </div>
+            </li>
+            <li class="flex gap-5 rounded-xl border bg-card p-6">
+              <div class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-activity size-5" aria-hidden="true">
+                  <path
+                    d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-lg font-bold">Мониторинг</h3>
+                <p class="mt-2 leading-relaxed text-muted-foreground">Единая панель управления
+                  объединяет всю информацию по процессу: этапы, задачи, исполнители, сроки, результаты
+                  и связанные процессы.</p>
+              </div>
+            </li>
+          </ul>
+          <figure class="overflow-hidden rounded-xl border bg-card shadow-xl shadow-primary/10">
+            <div class="flex items-center gap-2 border-b bg-muted px-4 py-2.5"><span
+                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
+                class="ml-2 truncate text-xs text-muted-foreground">Исполнение документа — история
+                процесса</span></div>
+            <img src="images/portal.png"
+              alt="Скриншот портала FlowPoint: история процесса исполнения документа с задачами, исполнителями и сроками"
+              width="1140" height="854" class="block h-auto w-full" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="launch" class="scroll-mt-16 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+          <div class="max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-wider text-primary">Цикл запуска нового
+              процесса</p>
+            <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Три
+              шага от идеи до работающего процесса</h2>
+            <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">Внедрение нового
+              процесса состоит из трех шагов и может занять всего один день.</p>
+          </div>
+          <div class="shrink-0 rounded-xl bg-accent px-6 py-4 text-accent-foreground">
+            <p class="font-heading text-4xl font-extrabold">1 день</p>
+            <p class="text-sm">на запуск процесса</p>
+          </div>
+        </div>
+        <ol class="mt-14 grid gap-6 md:grid-cols-3">
+          <li class="relative rounded-xl border bg-card p-7"><span
+              class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">01</span>
+            <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 1: </span>Разработка
+              форм</h3>
+            <p class="mt-3 leading-relaxed text-muted-foreground">Создание пользовательских форм в
+              визуальном редакторе с помощью готовых сервисов.</p>
+            <div aria-hidden="true" class="absolute top-1/2 -right-4 hidden h-px w-8 bg-primary/40 md:block"></div>
+          </li>
+          <li class="relative rounded-xl border bg-card p-7"><span
+              class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">02</span>
+            <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 2:
+              </span>Проектирование</h3>
+            <p class="mt-3 leading-relaxed text-muted-foreground">Описание логики процесса в
+              специализированном графическом редакторе (блок-схемы).</p>
+            <div aria-hidden="true" class="absolute top-1/2 -right-4 hidden h-px w-8 bg-primary/40 md:block"></div>
+          </li>
+          <li class="relative rounded-xl border bg-card p-7"><span
+              class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">03</span>
+            <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 3: </span>Запуск</h3>
+            <p class="mt-3 leading-relaxed text-muted-foreground">Публикация процесса в эксплуатацию
+              нажатием одной кнопки. После этого процесс становится доступен пользователям.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section id="architecture" class="scroll-mt-16 bg-muted/60 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold uppercase tracking-wider text-primary">Архитектура и компоненты</p>
+          <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">
+            Кросс-платформенное решение</h2>
+          <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">FlowPoint работает в Linux
+            и Windows и встраивается в привычную для вашей компании инфраструктуру.</p>
+        </div>
+        <dl class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-monitor size-6 text-primary" aria-hidden="true">
+              <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+              <line x1="8" x2="16" y1="21" y2="21"></line>
+              <line x1="12" x2="12" y1="17" y2="21"></line>
+            </svg>
+            <dt class="mt-4 text-sm text-muted-foreground">Платформы</dt>
+            <dd class="mt-1 font-heading text-lg font-bold leading-snug">Linux / Windows</dd>
+          </div>
+          <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-layers size-6 text-primary" aria-hidden="true">
+              <path
+                d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z">
+              </path>
+              <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path>
+              <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path>
+            </svg>
+            <dt class="mt-4 text-sm text-muted-foreground">Интеграция</dt>
+            <dd class="mt-1 font-heading text-lg font-bold leading-snug">Alfresco / MS SharePoint</dd>
+          </div>
+          <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-database size-6 text-primary" aria-hidden="true">
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+              <path d="M3 12A9 3 0 0 0 21 12"></path>
+            </svg>
+            <dt class="mt-4 text-sm text-muted-foreground">Базы данных</dt>
+            <dd class="mt-1 font-heading text-lg font-bold leading-snug">PostgreSQL / MS SQL Server</dd>
+          </div>
+          <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-cpu size-6 text-primary" aria-hidden="true">
+              <rect width="16" height="16" x="4" y="4" rx="2"></rect>
+              <rect width="6" height="6" x="9" y="9" rx="1"></rect>
+              <path d="M15 2v2"></path>
+              <path d="M15 20v2"></path>
+              <path d="M2 15h2"></path>
+              <path d="M2 9h2"></path>
+              <path d="M20 15h2"></path>
+              <path d="M20 9h2"></path>
+              <path d="M9 2v2"></path>
+              <path d="M9 20v2"></path>
+            </svg>
+            <dt class="mt-4 text-sm text-muted-foreground">Движки процессов</dt>
+            <dd class="mt-1 font-heading text-lg font-bold leading-snug">jBPM / Windows Workflow Foundation
+            </dd>
+          </div>
+        </dl>
+        <div class="mt-6 rounded-xl border bg-card p-8">
+          <h3 class="font-heading text-xl font-bold">Ключевые модули системы</h3>
+          <ul class="mt-6 grid gap-4 md:grid-cols-2">
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Графический редактор и компилятор процессов</span></li>
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Ролевая система и подсистема
+                замещений/делегирования</span></li>
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Учет производственного календаря и нумерации</span></li>
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Подсистема метрик, связей и связанных
+                бизнес-процессов</span></li>
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Работа с шаблонами и прикладные сервисы</span></li>
+            <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg><span class="leading-relaxed">Расширения пользовательского интерфейса</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="ose" class="scroll-mt-16 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-end">
+          <div class="max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-wider text-primary">Open Source Edition</p>
+            <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">
+              FlowPoint OSE — единый слой интеграции ИС и BPMS</h2>
+            <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">Расширение для
+              интеграции информационных систем с системами управления бизнес-процессами (BPMS).</p>
+          </div>
+          <p class="text-pretty leading-relaxed text-muted-foreground">Подключайте одну или несколько BPMS к
+            существующей ИС через унифицированный API — без прямого взаимодействия с каждой BPMS в
+            отдельности.</p>
+        </div>
+        <figure
+          aria-label="Схема: информационные системы подключаются к FlowPoint OSE через единый API, а FlowPoint OSE — к нескольким BPMS"
+          class="mt-14 rounded-2xl border bg-muted/50 p-6 md:p-10">
+          <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
+            <div class="flex flex-1 flex-col gap-3">
+              <p class="text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                Ваши ИС</p>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                СЭД / ECM</div>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                Корпоративный портал</div>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                ERP / CRM</div>
             </div>
-        </section>
-        <section id="features" class="scroll-mt-16 bg-muted/60 py-20 md:py-28">
-            <div class="mx-auto max-w-6xl px-6">
-                <div class="max-w-2xl">
-                    <p class="text-sm font-semibold uppercase tracking-wider text-primary">Основные возможности</p>
-                    <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Полный цикл
-                        управления процессами в одной платформе</h2>
-                    <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">От схемы на экране до
-                        контроля каждой задачи — без программирования и сложных интеграций.</p>
-                </div>
-                <div class="mt-14 grid items-start gap-10 lg:grid-cols-[1fr_1.1fr]">
-                    <ul class="flex flex-col gap-4">
-                        <li class="flex gap-5 rounded-xl border bg-card p-6">
-                            <div
-                                class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-pen-tool size-5" aria-hidden="true">
-                                    <path
-                                        d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z">
-                                    </path>
-                                    <path
-                                        d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18">
-                                    </path>
-                                    <path d="m2.3 2.3 7.286 7.286"></path>
-                                    <circle cx="11" cy="11" r="2"></circle>
-                                </svg></div>
-                            <div>
-                                <h3 class="font-heading text-lg font-bold">Моделирование</h3>
-                                <p class="mt-2 leading-relaxed text-muted-foreground">Графический редактор позволяет
-                                    обычным пользователям интуитивно создавать сложные блок-схемы процессов без
-                                    привлечения программистов.</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-5 rounded-xl border bg-card p-6">
-                            <div
-                                class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-play size-5" aria-hidden="true">
-                                    <polygon points="6 3 20 12 6 21 6 3"></polygon>
-                                </svg></div>
-                            <div>
-                                <h3 class="font-heading text-lg font-bold">Исполнение</h3>
-                                <p class="mt-2 leading-relaxed text-muted-foreground">Запуск и выполнение процессов
-                                    реализуются на базе платформ Alfresco или MS SharePoint.</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-5 rounded-xl border bg-card p-6">
-                            <div
-                                class="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-activity size-5" aria-hidden="true">
-                                    <path
-                                        d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2">
-                                    </path>
-                                </svg></div>
-                            <div>
-                                <h3 class="font-heading text-lg font-bold">Мониторинг</h3>
-                                <p class="mt-2 leading-relaxed text-muted-foreground">Единая панель управления
-                                    объединяет всю информацию по процессу: этапы, задачи, исполнители, сроки, результаты
-                                    и связанные процессы.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <figure class="overflow-hidden rounded-xl border bg-card shadow-xl shadow-primary/10">
-                        <div class="flex items-center gap-2 border-b bg-muted px-4 py-2.5"><span
-                                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                                class="size-2.5 rounded-full bg-border" aria-hidden="true"></span><span
-                                class="ml-2 truncate text-xs text-muted-foreground">Исполнение документа — история
-                                процесса</span></div>
-                        <img src="images/portal.png"
-                            alt="Скриншот портала FlowPoint: история процесса исполнения документа с задачами, исполнителями и сроками"
-                            width="1140" height="854" class="block h-auto w-full" />
-                    </figure>
-                </div>
+            <div class="flex items-center justify-center text-primary lg:px-1" aria-hidden="true"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-5 rotate-90 lg:rotate-0">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg></div>
+            <div class="flex-[1.4] rounded-xl bg-primary p-6 text-primary-foreground shadow-lg shadow-primary/20">
+              <p class="text-xs font-semibold uppercase tracking-wider text-primary-foreground/70">Единый
+                API</p>
+              <p class="mt-1 font-heading text-2xl font-extrabold">FlowPoint OSE</p>
+              <ul class="mt-5 flex flex-wrap gap-2">
+                <li class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
+                  Интерфейс администрирования</li>
+                <li class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
+                  Сервисы Web API</li>
+                <li class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
+                  Timer Service</li>
+                <li class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
+                  Модули интеграции с BPMS</li>
+                <li class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
+                  Базы данных процессов, задач и таймера</li>
+              </ul>
             </div>
-        </section>
-        <section id="launch" class="scroll-mt-16 py-20 md:py-28">
-            <div class="mx-auto max-w-6xl px-6">
-                <div class="flex flex-col justify-between gap-8 md:flex-row md:items-end">
-                    <div class="max-w-2xl">
-                        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Цикл запуска нового
-                            процесса</p>
-                        <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Три
-                            шага от идеи до работающего процесса</h2>
-                        <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">Внедрение нового
-                            процесса состоит из трех шагов и может занять всего один день.</p>
-                    </div>
-                    <div class="shrink-0 rounded-xl bg-accent px-6 py-4 text-accent-foreground">
-                        <p class="font-heading text-4xl font-extrabold">1 день</p>
-                        <p class="text-sm">на запуск процесса</p>
-                    </div>
-                </div>
-                <ol class="mt-14 grid gap-6 md:grid-cols-3">
-                    <li class="relative rounded-xl border bg-card p-7"><span
-                            class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">01</span>
-                        <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 1: </span>Разработка
-                            форм</h3>
-                        <p class="mt-3 leading-relaxed text-muted-foreground">Создание пользовательских форм в
-                            визуальном редакторе с помощью готовых сервисов.</p>
-                        <div aria-hidden="true"
-                            class="absolute top-1/2 -right-4 hidden h-px w-8 bg-primary/40 md:block"></div>
-                    </li>
-                    <li class="relative rounded-xl border bg-card p-7"><span
-                            class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">02</span>
-                        <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 2:
-                            </span>Проектирование</h3>
-                        <p class="mt-3 leading-relaxed text-muted-foreground">Описание логики процесса в
-                            специализированном графическом редакторе (блок-схемы).</p>
-                        <div aria-hidden="true"
-                            class="absolute top-1/2 -right-4 hidden h-px w-8 bg-primary/40 md:block"></div>
-                    </li>
-                    <li class="relative rounded-xl border bg-card p-7"><span
-                            class="font-heading text-5xl font-extrabold text-primary/20" aria-hidden="true">03</span>
-                        <h3 class="mt-4 font-heading text-xl font-bold"><span class="sr-only">Шаг 3: </span>Запуск</h3>
-                        <p class="mt-3 leading-relaxed text-muted-foreground">Публикация процесса в эксплуатацию
-                            нажатием одной кнопки. После этого процесс становится доступен пользователям.</p>
-                    </li>
-                </ol>
+            <div class="flex items-center justify-center text-primary lg:px-1" aria-hidden="true"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-right size-5 rotate-90 lg:rotate-0">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg></div>
+            <div class="flex flex-1 flex-col gap-3">
+              <p class="text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                BPMS</p>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                jBPM</div>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                BPMS № 2</div>
+              <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
+                BPMS № N</div>
             </div>
-        </section>
-        <section id="architecture" class="scroll-mt-16 bg-muted/60 py-20 md:py-28">
-            <div class="mx-auto max-w-6xl px-6">
-                <div class="max-w-2xl">
-                    <p class="text-sm font-semibold uppercase tracking-wider text-primary">Архитектура и компоненты</p>
-                    <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">
-                        Кросс-платформенное решение</h2>
-                    <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">FlowPoint работает в Linux
-                        и Windows и встраивается в привычную для вашей компании инфраструктуру.</p>
-                </div>
-                <dl class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                    <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-monitor size-6 text-primary" aria-hidden="true">
-                            <rect width="20" height="14" x="2" y="3" rx="2"></rect>
-                            <line x1="8" x2="16" y1="21" y2="21"></line>
-                            <line x1="12" x2="12" y1="17" y2="21"></line>
-                        </svg>
-                        <dt class="mt-4 text-sm text-muted-foreground">Платформы</dt>
-                        <dd class="mt-1 font-heading text-lg font-bold leading-snug">Linux / Windows</dd>
-                    </div>
-                    <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-layers size-6 text-primary" aria-hidden="true">
-                            <path
-                                d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z">
-                            </path>
-                            <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path>
-                            <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path>
-                        </svg>
-                        <dt class="mt-4 text-sm text-muted-foreground">Интеграция</dt>
-                        <dd class="mt-1 font-heading text-lg font-bold leading-snug">Alfresco / MS SharePoint</dd>
-                    </div>
-                    <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-database size-6 text-primary" aria-hidden="true">
-                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                            <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
-                            <path d="M3 12A9 3 0 0 0 21 12"></path>
-                        </svg>
-                        <dt class="mt-4 text-sm text-muted-foreground">Базы данных</dt>
-                        <dd class="mt-1 font-heading text-lg font-bold leading-snug">PostgreSQL / MS SQL Server</dd>
-                    </div>
-                    <div class="rounded-xl border bg-card p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu size-6 text-primary"
-                            aria-hidden="true">
-                            <rect width="16" height="16" x="4" y="4" rx="2"></rect>
-                            <rect width="6" height="6" x="9" y="9" rx="1"></rect>
-                            <path d="M15 2v2"></path>
-                            <path d="M15 20v2"></path>
-                            <path d="M2 15h2"></path>
-                            <path d="M2 9h2"></path>
-                            <path d="M20 15h2"></path>
-                            <path d="M20 9h2"></path>
-                            <path d="M9 2v2"></path>
-                            <path d="M9 20v2"></path>
-                        </svg>
-                        <dt class="mt-4 text-sm text-muted-foreground">Движки процессов</dt>
-                        <dd class="mt-1 font-heading text-lg font-bold leading-snug">jBPM / Windows Workflow Foundation
-                        </dd>
-                    </div>
-                </dl>
-                <div class="mt-6 rounded-xl border bg-card p-8">
-                    <h3 class="font-heading text-xl font-bold">Ключевые модули системы</h3>
-                    <ul class="mt-6 grid gap-4 md:grid-cols-2">
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Графический редактор и компилятор процессов</span></li>
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Ролевая система и подсистема
-                                замещений/делегирования</span></li>
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Учет производственного календаря и нумерации</span></li>
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Подсистема метрик, связей и связанных
-                                бизнес-процессов</span></li>
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Работа с шаблонами и прикладные сервисы</span></li>
-                        <li class="flex gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-primary"
-                                aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg><span class="leading-relaxed">Расширения пользовательского интерфейса</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="ose" class="scroll-mt-16 py-20 md:py-28">
-            <div class="mx-auto max-w-6xl px-6">
-                <div class="grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-end">
-                    <div class="max-w-2xl">
-                        <p class="text-sm font-semibold uppercase tracking-wider text-primary">Open Source Edition</p>
-                        <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">
-                            FlowPoint OSE — единый слой интеграции ИС и BPMS</h2>
-                        <p class="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">Расширение для
-                            интеграции информационных систем с системами управления бизнес-процессами (BPMS).</p>
-                    </div>
-                    <p class="text-pretty leading-relaxed text-muted-foreground">Подключайте одну или несколько BPMS к
-                        существующей ИС через унифицированный API — без прямого взаимодействия с каждой BPMS в
-                        отдельности.</p>
-                </div>
-                <figure
-                    aria-label="Схема: информационные системы подключаются к FlowPoint OSE через единый API, а FlowPoint OSE — к нескольким BPMS"
-                    class="mt-14 rounded-2xl border bg-muted/50 p-6 md:p-10">
-                    <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
-                        <div class="flex flex-1 flex-col gap-3">
-                            <p class="text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                                Ваши ИС</p>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                СЭД / ECM</div>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                Корпоративный портал</div>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                ERP / CRM</div>
-                        </div>
-                        <div class="flex items-center justify-center text-primary lg:px-1" aria-hidden="true"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-arrow-right size-5 rotate-90 lg:rotate-0">
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                            </svg></div>
-                        <div
-                            class="flex-[1.4] rounded-xl bg-primary p-6 text-primary-foreground shadow-lg shadow-primary/20">
-                            <p class="text-xs font-semibold uppercase tracking-wider text-primary-foreground/70">Единый
-                                API</p>
-                            <p class="mt-1 font-heading text-2xl font-extrabold">FlowPoint OSE</p>
-                            <ul class="mt-5 flex flex-wrap gap-2">
-                                <li
-                                    class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
-                                    Интерфейс администрирования</li>
-                                <li
-                                    class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
-                                    Сервисы Web API</li>
-                                <li
-                                    class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
-                                    Timer Service</li>
-                                <li
-                                    class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
-                                    Модули интеграции с BPMS</li>
-                                <li
-                                    class="rounded-full bg-primary-foreground/15 px-3 py-1 text-xs font-medium text-primary-foreground">
-                                    Базы данных процессов, задач и таймера</li>
-                            </ul>
-                        </div>
-                        <div class="flex items-center justify-center text-primary lg:px-1" aria-hidden="true"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-arrow-right size-5 rotate-90 lg:rotate-0">
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                            </svg></div>
-                        <div class="flex flex-1 flex-col gap-3">
-                            <p class="text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                                BPMS</p>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                jBPM</div>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                BPMS № 2</div>
-                            <div class="rounded-lg border bg-card px-4 py-3 text-center text-sm font-medium shadow-sm">
-                                BPMS № N</div>
-                        </div>
-                    </div>
-                </figure>
-                <div class="mt-16 grid gap-12 lg:grid-cols-2">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold">Решаемые задачи</h3>
-                        <ol class="mt-6 flex flex-col">
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">01</span><span
-                                    class="text-muted-foreground">Внедрение процессного подхода в существующие
-                                    информационные системы</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">02</span><span
-                                    class="text-muted-foreground">Мульти-интеграция с различными BPMS (поддержка разных
-                                    нотаций)</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">03</span><span
-                                    class="text-muted-foreground">Централизованное назначение задач пользователям и
-                                    контроль их исполнения</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">04</span><span
-                                    class="text-muted-foreground">Автоматизация замещений сотрудников при распределении
-                                    задач</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">05</span><span
-                                    class="text-muted-foreground">Аналитика эффективности работы сотрудников и
-                                    подразделений в рамках бизнес-процессов</span></li>
-                        </ol>
-                    </div>
-                    <div>
-                        <h3 class="font-heading text-xl font-bold">Основные функции</h3>
-                        <ol class="mt-6 flex flex-col">
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">01</span><span
-                                    class="text-muted-foreground">Управление конфигурациями подключенных BPMS и
-                                    сценариями запуска процессов</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">02</span><span
-                                    class="text-muted-foreground">Мониторинг активных процессов и назначенных задач в
-                                    реальном времени</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">03</span><span
-                                    class="text-muted-foreground">Централизованное управление профилями
-                                    пользователей</span></li>
-                            <li class="flex gap-4 border-t py-4 leading-relaxed"><span
-                                    class="w-6 shrink-0 font-heading text-sm font-bold text-primary">04</span><span
-                                    class="text-muted-foreground">Автоматическое переназначение задач на заместителей на
-                                    основе заданных правил</span></li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="mt-16 grid gap-6 lg:grid-cols-2">
-                    <div class="rounded-2xl border bg-card p-7">
-                        <h3 class="font-heading text-xl font-bold">Системные требования</h3>
-                        <p class="mt-1 text-sm text-muted-foreground">Установка на одном сервере со встроенной БД
-                            PostgreSQL</p>
-                        <dl class="mt-6 grid gap-4 sm:grid-cols-2">
-                            <div class="flex gap-3"><span
-                                    class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-cpu size-5" aria-hidden="true">
-                                        <rect width="16" height="16" x="4" y="4" rx="2"></rect>
-                                        <rect width="6" height="6" x="9" y="9" rx="1"></rect>
-                                        <path d="M15 2v2"></path>
-                                        <path d="M15 20v2"></path>
-                                        <path d="M2 15h2"></path>
-                                        <path d="M2 9h2"></path>
-                                        <path d="M20 15h2"></path>
-                                        <path d="M20 9h2"></path>
-                                        <path d="M9 2v2"></path>
-                                        <path d="M9 20v2"></path>
-                                    </svg></span>
-                                <div>
-                                    <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                                        Процессор</dt>
-                                    <dd class="mt-0.5 text-sm font-medium">64-бит, 2 ядра</dd>
-                                </div>
-                            </div>
-                            <div class="flex gap-3"><span
-                                    class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-memory-stick size-5"
-                                        aria-hidden="true">
-                                        <path d="M6 19v-3"></path>
-                                        <path d="M10 19v-3"></path>
-                                        <path d="M14 19v-3"></path>
-                                        <path d="M18 19v-3"></path>
-                                        <path d="M8 11V9"></path>
-                                        <path d="M16 11V9"></path>
-                                        <path d="M12 11V9"></path>
-                                        <path d="M2 15h20"></path>
-                                        <path
-                                            d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.1a2 2 0 0 0 0 3.837V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.1a2 2 0 0 0 0-3.837Z">
-                                        </path>
-                                    </svg></span>
-                                <div>
-                                    <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">ОЗУ
-                                    </dt>
-                                    <dd class="mt-0.5 text-sm font-medium">2 ГБ — оценка, 6 ГБ — рабочая среда</dd>
-                                </div>
-                            </div>
-                            <div class="flex gap-3"><span
-                                    class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-hard-drive size-5"
-                                        aria-hidden="true">
-                                        <line x1="22" x2="2" y1="12" y2="12"></line>
-                                        <path
-                                            d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z">
-                                        </path>
-                                        <line x1="6" x2="6.01" y1="16" y2="16"></line>
-                                        <line x1="10" x2="10.01" y1="16" y2="16"></line>
-                                    </svg></span>
-                                <div>
-                                    <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                                        Диск</dt>
-                                    <dd class="mt-0.5 text-sm font-medium">60 ГБ системного диска</dd>
-                                </div>
-                            </div>
-                            <div class="flex gap-3"><span
-                                    class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-monitor-cog size-5"
-                                        aria-hidden="true">
-                                        <path d="M12 17v4"></path>
-                                        <path d="m15.2 4.9-.9-.4"></path>
-                                        <path d="m15.2 7.1-.9.4"></path>
-                                        <path d="m16.9 3.2-.4-.9"></path>
-                                        <path d="m16.9 8.8-.4.9"></path>
-                                        <path d="m19.5 2.3-.4.9"></path>
-                                        <path d="m19.5 9.7-.4-.9"></path>
-                                        <path d="m21.7 4.5-.9.4"></path>
-                                        <path d="m21.7 7.5-.9-.4"></path>
-                                        <path d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
-                                        <path d="M8 21h8"></path>
-                                        <circle cx="18" cy="6" r="3"></circle>
-                                    </svg></span>
-                                <div>
-                                    <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">ОС
-                                    </dt>
-                                    <dd class="mt-0.5 text-sm font-medium">Windows Server 2012 R2 (64-бит)</dd>
-                                </div>
-                            </div>
-                        </dl>
-                    </div>
-                    <div class="rounded-2xl border bg-card p-7">
-                        <h3 class="font-heading text-xl font-bold">Установка в три шага</h3>
-                        <p class="mt-1 text-sm text-muted-foreground">Все компоненты входят в дистрибутив</p>
-                        <ol class="mt-6 flex flex-col gap-4">
-                            <li class="flex items-start gap-4"><span
-                                    class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">1</span>
-                                <div class="pt-1"><code
-                                        class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">Config.cmd</code>
-                                    <p class="mt-1 text-sm text-muted-foreground">Задайте путь установки и параметры
-                                        PostgreSQL</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4"><span
-                                    class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">2</span>
-                                <div class="pt-1"><code
-                                        class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">Install.cmd</code>
-                                    <p class="mt-1 text-sm text-muted-foreground">Запустите от имени администратора и
-                                        дождитесь «Install Finished»</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4"><span
-                                    class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">3</span>
-                                <div class="pt-1"><code
-                                        class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">localhost:82</code>
-                                    <p class="mt-1 text-sm text-muted-foreground">Откройте панель администратора и
-                                        проверьте работу сервисов</p>
-                                </div>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="mt-16">
-                    <h3 class="font-heading text-2xl font-bold">Документация</h3>
-                    <ul class="mt-6 grid gap-4 md:grid-cols-2">
-                        <li><a href="/docs/flowpoint-ose-installation.pdf" download=""
-                                class="group flex h-full items-center gap-4 rounded-xl border bg-accent/60 p-5 transition-colors hover:border-primary hover:bg-accent"><span
-                                    class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-file-text size-5"
-                                        aria-hidden="true">
-                                        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
-                                        <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-                                        <path d="M10 9H8"></path>
-                                        <path d="M16 13H8"></path>
-                                        <path d="M16 17H8"></path>
-                                    </svg></span><span class="flex-1"><span class="block font-semibold">Инструкция по
-                                        установке</span><span
-                                        class="mt-0.5 block text-sm text-muted-foreground">Требования, состав
-                                        дистрибутива, настройка и проверка установки</span></span><span
-                                    class="flex items-center gap-1.5 text-sm font-medium text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-download size-4"
-                                        aria-hidden="true">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                        <polyline points="7 10 12 15 17 10"></polyline>
-                                        <line x1="12" x2="12" y1="15" y2="3"></line>
-                                    </svg>PDF</span></a></li>
-                        <li><a href="/docs/flowpoint-ose-technical-support.pdf" download=""
-                                class="group flex h-full items-center gap-4 rounded-xl border bg-accent/60 p-5 transition-colors hover:border-primary hover:bg-accent"><span
-                                    class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-file-text size-5"
-                                        aria-hidden="true">
-                                        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
-                                        <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-                                        <path d="M10 9H8"></path>
-                                        <path d="M16 13H8"></path>
-                                        <path d="M16 17H8"></path>
-                                    </svg></span><span class="flex-1"><span class="block font-semibold">Инструкция по
-                                        техническому сопровождению</span><span
-                                        class="mt-0.5 block text-sm text-muted-foreground">Автозапуск JBPM, проверка
-                                        служб и веб-узлов, диагностика</span></span><span
-                                    class="flex items-center gap-1.5 text-sm font-medium text-primary"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-download size-4"
-                                        aria-hidden="true">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                        <polyline points="7 10 12 15 17 10"></polyline>
-                                        <line x1="12" x2="12" y1="15" y2="3"></line>
-                                    </svg>PDF</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer id="contacts" class="scroll-mt-16 py-20 md:py-28">
-        <div class="mx-auto max-w-6xl px-6">
-            <div class="grid gap-10 rounded-2xl bg-accent p-8 md:p-12 lg:grid-cols-2">
+          </div>
+        </figure>
+        <div class="mt-16 grid gap-12 lg:grid-cols-2">
+          <div>
+            <h3 class="font-heading text-xl font-bold">Решаемые задачи</h3>
+            <ol class="mt-6 flex flex-col">
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">01</span><span
+                  class="text-muted-foreground">Внедрение процессного подхода в существующие
+                  информационные системы</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">02</span><span
+                  class="text-muted-foreground">Мульти-интеграция с различными BPMS (поддержка разных
+                  нотаций)</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">03</span><span
+                  class="text-muted-foreground">Централизованное назначение задач пользователям и
+                  контроль их исполнения</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">04</span><span
+                  class="text-muted-foreground">Автоматизация замещений сотрудников при распределении
+                  задач</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">05</span><span
+                  class="text-muted-foreground">Аналитика эффективности работы сотрудников и
+                  подразделений в рамках бизнес-процессов</span></li>
+            </ol>
+          </div>
+          <div>
+            <h3 class="font-heading text-xl font-bold">Основные функции</h3>
+            <ol class="mt-6 flex flex-col">
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">01</span><span
+                  class="text-muted-foreground">Управление конфигурациями подключенных BPMS и
+                  сценариями запуска процессов</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">02</span><span
+                  class="text-muted-foreground">Мониторинг активных процессов и назначенных задач в
+                  реальном времени</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">03</span><span
+                  class="text-muted-foreground">Централизованное управление профилями
+                  пользователей</span></li>
+              <li class="flex gap-4 border-t py-4 leading-relaxed"><span
+                  class="w-6 shrink-0 font-heading text-sm font-bold text-primary">04</span><span
+                  class="text-muted-foreground">Автоматическое переназначение задач на заместителей на
+                  основе заданных правил</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="mt-16 grid gap-6 lg:grid-cols-2">
+          <div class="rounded-2xl border bg-card p-7">
+            <h3 class="font-heading text-xl font-bold">Системные требования</h3>
+            <p class="mt-1 text-sm text-muted-foreground">Установка на одном сервере со встроенной БД
+              PostgreSQL</p>
+            <dl class="mt-6 grid gap-4 sm:grid-cols-2">
+              <div class="flex gap-3"><span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-cpu size-5" aria-hidden="true">
+                    <rect width="16" height="16" x="4" y="4" rx="2"></rect>
+                    <rect width="6" height="6" x="9" y="9" rx="1"></rect>
+                    <path d="M15 2v2"></path>
+                    <path d="M15 20v2"></path>
+                    <path d="M2 15h2"></path>
+                    <path d="M2 9h2"></path>
+                    <path d="M20 15h2"></path>
+                    <path d="M20 9h2"></path>
+                    <path d="M9 2v2"></path>
+                    <path d="M9 20v2"></path>
+                  </svg></span>
                 <div>
-                    <p class="text-sm font-semibold uppercase tracking-wider text-primary">Контакты</p>
-                    <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Обсудим
-                        автоматизацию ваших процессов</h2>
-                    <p class="mt-4 text-lg leading-relaxed text-muted-foreground">Расскажите о задаче — поможем
-                        подобрать сценарий внедрения FlowPoint.</p>
+                  <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                    Процессор</dt>
+                  <dd class="mt-0.5 text-sm font-medium">64-бит, 2 ядра</dd>
                 </div>
-                <address class="flex flex-col gap-5 not-italic">
-                    <p class="font-heading text-xl font-bold">ООО «Скайори»</p><a href="tel:+79194501834"
-                        class="flex items-center gap-3 text-lg hover:text-primary"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-phone size-5 text-primary" aria-hidden="true">
-                            <path
-                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                            </path>
-                        </svg>+7 (919) 450-18-34</a><a href="mailto:info@skyori.ru"
-                        class="flex items-center gap-3 text-lg hover:text-primary"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-mail size-5 text-primary" aria-hidden="true">
-                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                        </svg>info@skyori.ru</a>
-                    <p class="flex gap-3 leading-relaxed text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-map-pin mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true">
-                            <path
-                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
-                            </path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg><span>Юр. адрес: 614066, Пермский край, г. Пермь, шоссе Космонавтов, д. 111И, корпус 1,
-                            помещение 77</span></p>
-                </address>
-            </div>
-            <div
-                class="mt-10 flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
-                <img src="images/logo.png" alt="FlowPoint" width="289" height="94" class="h-8 w-auto" />
-                <p>© 2026 ООО «Скайори». Все права защищены.</p>
-            </div>
+              </div>
+              <div class="flex gap-3"><span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-memory-stick size-5" aria-hidden="true">
+                    <path d="M6 19v-3"></path>
+                    <path d="M10 19v-3"></path>
+                    <path d="M14 19v-3"></path>
+                    <path d="M18 19v-3"></path>
+                    <path d="M8 11V9"></path>
+                    <path d="M16 11V9"></path>
+                    <path d="M12 11V9"></path>
+                    <path d="M2 15h20"></path>
+                    <path
+                      d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.1a2 2 0 0 0 0 3.837V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.1a2 2 0 0 0 0-3.837Z">
+                    </path>
+                  </svg></span>
+                <div>
+                  <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">ОЗУ
+                  </dt>
+                  <dd class="mt-0.5 text-sm font-medium">2 ГБ — оценка, 6 ГБ — рабочая среда</dd>
+                </div>
+              </div>
+              <div class="flex gap-3"><span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-hard-drive size-5" aria-hidden="true">
+                    <line x1="22" x2="2" y1="12" y2="12"></line>
+                    <path
+                      d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z">
+                    </path>
+                    <line x1="6" x2="6.01" y1="16" y2="16"></line>
+                    <line x1="10" x2="10.01" y1="16" y2="16"></line>
+                  </svg></span>
+                <div>
+                  <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                    Диск</dt>
+                  <dd class="mt-0.5 text-sm font-medium">60 ГБ системного диска</dd>
+                </div>
+              </div>
+              <div class="flex gap-3"><span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-monitor-cog size-5" aria-hidden="true">
+                    <path d="M12 17v4"></path>
+                    <path d="m15.2 4.9-.9-.4"></path>
+                    <path d="m15.2 7.1-.9.4"></path>
+                    <path d="m16.9 3.2-.4-.9"></path>
+                    <path d="m16.9 8.8-.4.9"></path>
+                    <path d="m19.5 2.3-.4.9"></path>
+                    <path d="m19.5 9.7-.4-.9"></path>
+                    <path d="m21.7 4.5-.9.4"></path>
+                    <path d="m21.7 7.5-.9-.4"></path>
+                    <path d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+                    <path d="M8 21h8"></path>
+                    <circle cx="18" cy="6" r="3"></circle>
+                  </svg></span>
+                <div>
+                  <dt class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">ОС
+                  </dt>
+                  <dd class="mt-0.5 text-sm font-medium">Windows Server 2012 R2 (64-бит)</dd>
+                </div>
+              </div>
+            </dl>
+          </div>
+          <div class="rounded-2xl border bg-card p-7">
+            <h3 class="font-heading text-xl font-bold">Установка в три шага</h3>
+            <p class="mt-1 text-sm text-muted-foreground">Все компоненты входят в дистрибутив</p>
+            <ol class="mt-6 flex flex-col gap-4">
+              <li class="flex items-start gap-4"><span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">1</span>
+                <div class="pt-1"><code
+                    class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">Config.cmd</code>
+                  <p class="mt-1 text-sm text-muted-foreground">Задайте путь установки и параметры
+                    PostgreSQL</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4"><span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">2</span>
+                <div class="pt-1"><code
+                    class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">Install.cmd</code>
+                  <p class="mt-1 text-sm text-muted-foreground">Запустите от имени администратора и
+                    дождитесь «Install Finished»</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4"><span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">3</span>
+                <div class="pt-1"><code
+                    class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm font-semibold text-accent-foreground">localhost:82</code>
+                  <p class="mt-1 text-sm text-muted-foreground">Откройте панель администратора и
+                    проверьте работу сервисов</p>
+                </div>
+              </li>
+            </ol>
+          </div>
         </div>
-    </footer>
-    <script src="script.js" defer></script>
+        <div class="mt-16">
+          <h3 class="font-heading text-2xl font-bold">Документация</h3>
+          <ul class="mt-6 grid gap-4 md:grid-cols-2">
+            <li><a href="docs/flowpoint-ose-installation.pdf" download="" target="_blank"
+                class="group flex h-full items-center gap-4 rounded-xl border bg-accent/60 p-5 transition-colors hover:border-primary hover:bg-accent"><span
+                  class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-file-text size-5" aria-hidden="true">
+                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                    <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                    <path d="M10 9H8"></path>
+                    <path d="M16 13H8"></path>
+                    <path d="M16 17H8"></path>
+                  </svg></span><span class="flex-1"><span class="block font-semibold">Инструкция по
+                    установке</span><span class="mt-0.5 block text-sm text-muted-foreground">Требования, состав
+                    дистрибутива, настройка и проверка установки</span></span><span
+                  class="flex items-center gap-1.5 text-sm font-medium text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-download size-4" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                  </svg>PDF</span></a></li>
+            <li><a href="docs/flowpoint-ose-technical-support.pdf" download="" target="_blank"
+                class="group flex h-full items-center gap-4 rounded-xl border bg-accent/60 p-5 transition-colors hover:border-primary hover:bg-accent"><span
+                  class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-file-text size-5" aria-hidden="true">
+                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                    <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                    <path d="M10 9H8"></path>
+                    <path d="M16 13H8"></path>
+                    <path d="M16 17H8"></path>
+                  </svg></span><span class="flex-1"><span class="block font-semibold">Инструкция по
+                    техническому сопровождению</span><span class="mt-0.5 block text-sm text-muted-foreground">Автозапуск
+                    JBPM, проверка
+                    служб и веб-узлов, диагностика</span></span><span
+                  class="flex items-center gap-1.5 text-sm font-medium text-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-download size-4" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                  </svg>PDF</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contacts" class="scroll-mt-16 py-20 md:py-28">
+    <div class="mx-auto max-w-6xl px-6">
+      <div class="grid gap-10 rounded-2xl bg-accent p-8 md:p-12 lg:grid-cols-2">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-primary">Контакты</p>
+          <h2 class="mt-3 text-balance font-heading text-3xl font-bold tracking-tight md:text-4xl">Обсудим
+            автоматизацию ваших процессов</h2>
+          <p class="mt-4 text-lg leading-relaxed text-muted-foreground">Расскажите о задаче — поможем
+            подобрать сценарий внедрения FlowPoint.</p>
+        </div>
+        <address class="flex flex-col gap-5 not-italic">
+          <a href="https://skyori.com/" target="_blank" class="font-heading text-xl font-bold mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309.000000" height="87.000000" viewBox="0 0 309 87" fill="none">
+              <defs>
+                <clipPath id="clip34_274">
+                  <rect id="logo" width="309.000000" height="87.000000" fill="white" fill-opacity="0"/>
+                </clipPath>
+                <linearGradient id="paint_linear_34_275_0" x1="0.000000" y1="58.791054" x2="66.980179" y2="58.791054" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C7EAFB"/>
+                  <stop offset="1.000000" stop-color="#8ED8F8"/>
+                </linearGradient>
+                <linearGradient id="paint_linear_34_276_0" x1="22.882328" y1="33.496708" x2="71.117065" y2="33.496708" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C7EAFB"/>
+                  <stop offset="1.000000" stop-color="#8ED8F8"/>
+                </linearGradient>
+                <linearGradient id="paint_linear_34_277_0" x1="22.882328" y1="71.311165" x2="71.117065" y2="71.311165" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C7EAFB"/>
+                  <stop offset="1.000000" stop-color="#8ED8F8"/>
+                </linearGradient>
+              </defs>
+              <g clip-path="url(#clip34_274)">
+                <path id="path" d="M0 35.66C0 44.51 3.23 52.59 8.57 58.82C22.5 45.04 51.94 38.31 67.09 35.66C51.94 33.02 22.5 26.29 8.57 12.5C3.23 18.74 0 26.82 0 35.66Z" fill="url(#paint_linear_34_275_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+                <path id="path" d="M35.65 0C31.14 0 26.85 0.86 22.88 2.39C26.09 6.41 43.41 26.61 71.19 33.52C70.08 14.82 54.61 0 35.65 0Z" fill="url(#paint_linear_34_276_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+                <path id="path" d="M22.88 68.94C26.85 70.46 31.14 71.33 35.65 71.33C54.61 71.33 70.08 56.51 71.19 37.81C43.41 44.72 26.09 64.92 22.88 68.94Z" fill="url(#paint_linear_34_277_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+                <path id="path" d="M301.86 5.97C298.52 5.97 295.8 8.68 295.8 12.03C295.8 15.38 298.52 18.09 301.86 18.09C305.21 18.09 307.92 15.38 307.92 12.03C307.92 8.68 305.21 5.97 301.86 5.97ZM265.92 22.11L273.64 22.11L274.55 26.19L275.01 26.19C276.54 24.47 278 22.11 283.63 22.11L291.81 22.11L291.81 30.28L284.54 30.28C278.18 30.28 275.01 33.47 275.01 39.74L275.01 67.55L265.92 67.55L265.92 22.11ZM251.5 44.83C251.5 35.37 245.6 29.38 237.87 29.38C230.15 29.38 224.25 35.37 224.25 44.83C224.25 54.28 230.15 60.28 237.87 60.28C245.6 60.28 251.5 54.28 251.5 44.83ZM215.16 44.83C215.16 30.74 224.7 21.2 237.87 21.2C251.05 21.2 260.59 30.74 260.59 44.83C260.59 58.92 251.05 68.46 237.87 68.46C224.7 68.46 215.16 58.92 215.16 44.83ZM175.03 77.55L184.11 77.55C185.93 77.55 186.93 75.82 187.21 74.82L188.66 70.73L170.04 22.11L179.57 22.11L192.75 56.64L194.56 56.64L206.37 22.11L215.91 22.11L195.93 78.01C194.11 83 191.38 85.73 184.57 85.73L175.03 85.73L175.03 77.55ZM131.28 3.92L140.37 3.92L140.37 43.01L159.45 22.11L170.34 22.11L149.9 44.37L171.25 67.55L160.35 67.55L140.37 45.74L140.37 67.55L131.28 67.55L131.28 3.92ZM86.86 48.01C86.86 53.92 92.86 59.37 102.31 59.37C112.75 59.37 116.84 55.28 116.84 49.83C116.84 45.19 113.21 42.1 105.94 40.74L93.67 38.46C83.59 36.65 78.69 30.38 78.69 21.65C78.69 11.2 87.31 3.02 101.4 3.02C117.29 3.02 125.47 12.11 125.47 23.47L115.93 23.47C115.93 17.56 110.48 12.11 101.4 12.11C92.77 12.11 88.22 16.56 88.22 21.65C88.22 25.74 90.86 28.92 97.76 30.28L107.76 32.1C120.57 34.37 126.38 39.74 126.38 49.83C126.38 60.28 118.2 68.46 102.31 68.46C86.41 68.46 77.32 59.37 77.32 48.01L86.86 48.01ZM297.32 67.55L306.41 67.55L306.41 22.11L297.32 22.11L297.32 67.55Z" fill="#263148" fill-opacity="1.000000" fill-rule="evenodd"/>
+              </g>
+            </svg>
+          </a>
+          <a href="tel:+79194501834" class="flex items-center gap-3 text-lg hover:text-primary"><svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-phone size-5 text-primary" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>+7 (919) 450-18-34</a><a href="mailto:info@skyori.ru"
+            class="flex items-center gap-3 text-lg hover:text-primary"><svg xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail size-5 text-primary"
+              aria-hidden="true">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>info@skyori.ru</a>
+          <p class="flex gap-3 leading-relaxed text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-map-pin mt-0.5 size-5 shrink-0 text-primary"
+              aria-hidden="true">
+              <path
+                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+              </path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg><span>Юр. адрес: 614066, Пермский край, г. Пермь, шоссе Космонавтов, д. 111И, корпус 1,
+              помещение 77</span></p>
+        </address>
+      </div>
+      <div class="mt-10 flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
+        <img src="images/logo.png" alt="FlowPoint" width="289" height="94" class="h-12 w-auto" />
+        <p>© 2026 ООО «Скайори». Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
